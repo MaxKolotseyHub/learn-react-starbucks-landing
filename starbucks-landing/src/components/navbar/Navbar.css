@@ -1,9 +1,21 @@
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #d2d4d6;
+}
+
+a:hover{
+    text-shadow: 0 0 2px #d2d4d6;
+}
+
 .nav-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #3f4245;
-
+    background-color: #202b23;
+    
     .logo{
         text-align: center;
         align-self: center;
@@ -15,12 +27,14 @@
     }
 
     .menu-items{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
         flex-direction: row;
+        margin-right: 25px;
 
         li{
             list-style-type: none;
-            margin: 0 5px 0 0;
+            margin: 0 10px 0 0;
             color: #d2d4d6;
         }
     }
